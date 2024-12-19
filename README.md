@@ -1,18 +1,18 @@
-## # DARKNET_TASKS
+# DARKNET_TASKS
 
-Система управления задачами с защищенным интерфейсом, вдохновленным даркнетом.
+A secure task management system with a dark web-inspired interface.
 
-![Тема Даркнета](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80)
+![Dark Web Theme](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80)
 
-## Функции
+## Features
 
-- 🔒 Безопасная система аутентификации
-- 📝 Управление задачами с шифрованием
-- 🕒 Отслеживание временных меток для всех операций
-- 🌐 Интерфейс, вдохновленный даркнетом
-- 💻 Команды и взаимодействия в стиле терминала
+- 🔒 Secure authentication system
+- 📝 Task management with encryption
+- 🕒 Timestamp tracking for all operations
+- 🌐 Dark web-inspired interface
+- 💻 Terminal-style commands and interactions
 
-## Технологический стек
+## Tech Stack
 
 - React 18
 - TypeScript
@@ -20,19 +20,26 @@
 - Lucide Icons
 - Vite
 
-## Начало работы
+## Getting Started
 
-1. Клонируйте репозиторий:
-   git clone [адрес_репозитория]
+1. Clone the repository:
+```bash
+git clone [repository-url]
+```
 
-2. Установите зависимости:
-   npm install
+2. Install dependencies:
+```bash
+npm install
+```
 
-3. Запустите сервер разработки:
-   npm run dev
+3. Start the development server:
+```bash
+npm run dev
+```
 
-## Структура проекта
+## Project Structure
 
+```
 src/
 ├── components/
 │   ├── auth/
@@ -45,53 +52,54 @@ src/
 ├── styles/
 │   └── theme.css
 └── App.tsx
+```
 
-## Функции
+## Features
 
-### Аутентификация
-- Безопасная система входа
-- Управление сессиями
-- Шифрованные учетные данные
+### Authentication
+- Secure login system
+- Session management
+- Encrypted credentials
 
-### Управление задачами
-- Создание, чтение, обновление и удаление задач
-- Отслеживание выполнения задач
-- Логирование временных меток
-- Безопасное хранение задач
+### Task Management
+- Create, read, update, and delete tasks
+- Task completion tracking
+- Timestamp logging
+- Secure task storage
 
-## Стилизация
+## Styling
 
-Проект использует пользовательскую темную тему, вдохновленную интерфейсами терминала:
-- Моноширинные шрифты (JetBrains Mono)
-- Зелено-черная цветовая схема
-- Элементы интерфейса в стиле терминала
-- Минималистичный подход к дизайну
+The project uses a custom dark theme inspired by terminal interfaces:
+- Monospace fonts (JetBrains Mono)
+- Green-on-black color scheme
+- Terminal-style UI elements
+- Minimalist design approach
 
-## Развертывание
+## Deployment
 
-Приложение развернуто на Netlify и доступно по адресу:
+The application is deployed on Netlify and can be accessed at:
 [https://starlit-moxie-693ef8.netlify.app](https://starlit-moxie-693ef8.netlify.app)
 
-## Вклад
+## Contributing
 
-1. Сделайте форк репозитория
-2. Создайте свою ветку (git checkout -b feature/amazing-feature)
-3. Зафиксируйте свои изменения (git commit -m 'Add some amazing feature')
-4. Отправьте изменения в ветку (git push origin feature/amazing-feature)
-5. Откройте Pull Request
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Лицензия
+## License
 
-Этот проект лицензирован под MIT License - см. файл LICENSE для подробностей.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Безопасность
+## Security
 
-Это приложение реализует различные меры безопасности:
-- Шифрованное передача данных
-- Безопасная аутентификация
-- Управление сессиями
-- Валидация ввода
+This application implements various security measures:
+- Encrypted data transmission
+- Secure authentication
+- Session management
+- Input validation
 
-## Контакты
+## Contact
 
-Ссылка на проект: [https://github.com/yourusername/darknet-tasks](https://github.com/yourusername/darknet-tasks)
+Project Link: [https://github.com/yourusername/darknet-tasks](https://github.com/yourusername/darknet-tasks)
