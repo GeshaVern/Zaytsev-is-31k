@@ -1,6 +1,5 @@
 # DARKNET_TASKS
 
-A secure task management system with a dark web-inspired interface.
 
 ![Dark Web Theme](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80)
 
